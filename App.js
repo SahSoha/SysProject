@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage/Homebage';
 function App() {
   return (
     <div className='App'>
-      <Router>
+      <Router><title>test</title>
         <Routes>
           <Route path='/' element={<HomePage>dd</HomePage>} />
         </Routes>
