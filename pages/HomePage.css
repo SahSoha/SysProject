@@ -1,3 +1,9 @@
+
+.heading{
+ 
+    font-size: 3.5rem;
+    color:var(--green);
+}
 :root{
     --green:#6E8A3C;
 }
@@ -73,22 +79,21 @@ section{
 
 .home .content p{
     font-size: 2rem;
-    color:#aaa;
+    color:rgb(0, 0, 0);
     padding:1rem 0;
 }
 
 .product .box-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .product .box-container .box{
-    border:.1rem solid rgba(0,0,0,.1);
-    margin:2rem;
-    padding:1rem;
-    border-radius: .5rem;
+    border: 1px green solid;
+    margin: 1rem;
+    border-radius: 1rem;
     background:#fff;
     width: 30rem;
     text-align: center;
@@ -105,11 +110,6 @@ section{
     color:var(--green);
 }
 
-.product .box-container .box .stars i{
-    font-size: 2rem;
-    color:gold;
-    padding:1rem .1rem;
-}
 
 .product .box-container .box .price{
     font-size: 2rem;
@@ -129,7 +129,7 @@ section{
 
 .product .box-container .box .icons a{
     font-size: 1.5rem;
-    color:#666;
+    color:rgb(170, 17, 17);
     height:5rem;
     width:5rem;
     line-height: 5rem;
@@ -383,15 +383,6 @@ section{
     background:#f9f9f9;
 }
 
-
-
-
-
-
-
-
-
-
 /* media queries  */
 
 @media (max-width:991px){
@@ -420,31 +411,7 @@ section{
         padding:2rem 3%;
     }
 
-    header .navbar{
-        position: absolute;
-        top:100%;
-        left:0;
-        width:100%;
-        background:#f9f9f9;
-        text-align: center;
-        padding:2rem 0;
-        border-top: .1rem solid rgba(0,0,0,.1);
-        transform: scaleY(0);
-        transform-origin: top;
-        opacity: 0;
-    }
-
-    header .navbar.nav-toggle{
-        transform: scaleY(1);
-        opacity: 1;
-    }
-
-    header .navbar a{
-        display: block;
-        padding:1rem 0;
-        margin:1rem 0;
-        font-size: 2.5rem;
-    }
+ 
 
     section{
         padding:0 3%;
