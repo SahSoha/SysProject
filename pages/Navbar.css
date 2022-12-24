@@ -179,14 +179,3 @@ header .navbar a:hover {
     font-size: 50%;
   }
 }
-
-.search-container button {
-  float: right;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}

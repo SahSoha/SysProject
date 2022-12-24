@@ -5,8 +5,6 @@ import './Navbar.css';
 function Navbar() {
   return (
     <Fragment>
-      {' '}
-      {/* <!-- header section starts  --> */}
       <header>
         <a href="#" class="logo">
           <img src="images/logo.png" alt="" />
@@ -16,13 +14,11 @@ function Navbar() {
 
         <nav class="navbar">
           <title className="fra"></title>
-          <a style={{ color: 'black' }}>FRAÎCHE</a>
-          <a href="#home">home</a>
-          <a href="#product">product</a>
-          <a href="#about">about us</a>
-          <a href="#service">service</a>
-          <a href="#contact">contact</a>
-          <a href="#contact">Login</a>
+          <a style={{ color: 'black' }}>FRAICHE</a>
+          <Link to="/">Home</Link>
+          <Link to="/Products">product</Link>
+          <Link to="/Contact">Contact us</Link>
+          <Link to="/login">Login</Link>
         </nav>
       </header>
     </Fragment>
