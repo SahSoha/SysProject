@@ -95,15 +95,11 @@
     display: block;
     margin-top: 0.3rem;
     color: #888;
-    
-  
   }
+
   .form .form-group {
-    margin: 1.2rem 0;
-    
+    margin: 1.2rem 0; 
   }
-  
-  
   
   .form input[type='text'],
   .form input[type='email'],
