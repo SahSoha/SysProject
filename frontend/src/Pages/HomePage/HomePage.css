@@ -1,0 +1,237 @@
+:root{
+    --green:#6E8A3C;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
+    font-weight: normal;
+    font-family: cursive;
+}
+
+*::selection{
+    background:var(--green);
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1.3rem;
+}
+
+html::-webkit-scrollbar-track{
+   background:#eee;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--green);
+}
+
+section{
+    min-height: 100vh;
+    padding:0 7%;
+    padding-top: 9rem;
+}
+
+.btn{
+    padding:.7rem 2rem;
+    font-size: 1.7rem;
+    background:#666;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+.home{
+    display: flex;
+    background-image: url(https://columbiasurgery.org/sites/default/files/pancreas_food_lactose.jpg);
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    padding-left: 10rem;
+    width:75rem;
+}
+
+.home .content h3{
+    font-size: 4.5rem;
+    color:var(--green);
+}
+
+.home .content p{
+    font-size: 2rem;
+    color:#aaa;
+    padding:1rem 0;
+}
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 40rem;
+}
+
+.about .row .image img{
+    width:100%;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+    padding: 2rem 1rem;
+}
+
+.about .row .content h3{
+    color:var(--green);
+    font-size: 2.5rem;
+}
+
+.about .row .content p{
+    color:#aaa;
+    font-size: 1.7rem;
+    padding:1rem 0;
+}
+
+.service .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service .box-container .box{
+    text-align: center;
+    width:30rem;
+    margin:2rem;
+}
+
+.service .box-container .box i{
+    font-size: 5rem;
+    color:#aaa;
+    padding:1rem;
+}
+
+.service .box-container .box h3{
+    font-size: 2rem;
+    color:var(--green);
+}
+
+
+#scroll-top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    height:6rem;
+    width:6rem;
+    line-height: 6rem;
+    font-size: 3rem;
+    text-align: center;
+    color:var(--green);
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background:#f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home .content{
+        padding:0;
+    }
+
+    #scroll-top{
+        bottom:3rem;
+    }
+
+}
+
+@media (max-width:788px){
+
+    #menu{
+        display: block;
+    }
+
+    header{
+        padding:2rem 3%;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:#f9f9f9;
+        text-align: center;
+        padding:2rem 0;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        transform: scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    header .navbar.nav-toggle{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    header .navbar a{
+        display: block;
+        padding:1rem 0;
+        margin:1rem 0;
+        font-size: 2.5rem;
+    }
+
+    section{
+        padding:0 3%;
+        padding-top: 9rem;
+    }
+
+    .home{
+        background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7));
+        background-position: left;
+    }
+
+    .home .content{
+        width: auto;
+    }
+
+}
+
+@media (max-width:400px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
