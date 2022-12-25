@@ -21,6 +21,7 @@ function Navbar() {
           <Link to="/Products">product</Link>
           <Link to="/Contact">Contact us</Link>
           <Link to="/login">Login</Link>
+          <Link to="/Profile">My Account</Link>
         </nav>
       </header>
     </Fragment>

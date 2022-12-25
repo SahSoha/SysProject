@@ -5,6 +5,7 @@ import HomePage from './Pages/HomePage/Homebage';
 import Products from './Pages/Products/Products';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import Profile from './Pages/Profile/Profile';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route  path ="/login" element={<Login/>} />
           <Route  path ="/Register" element={<Register/>} />
+          <Route  path ="/Profile" element={<Profile/>} />
         </Routes>
       </Router>
     </div>
