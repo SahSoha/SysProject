@@ -7,10 +7,9 @@
 }
 
 .product .box-container .box{
-    border:.1rem solid rgba(0,0,0,.1);
-    margin:2rem;
-    padding:1rem;
-    border-radius: .5rem;
+    border: 1px green solid;
+    margin: 1rem;
+    border-radius: 1rem;
     background:#fff;
     width: 30rem;
     text-align: center;
@@ -27,11 +26,7 @@
     color:var(--green);
 }
 
-.product .box-container .box .stars i{
-    font-size: 2rem;
-    color:gold;
-    padding:1rem .1rem;
-}
+
 
 .product .box-container .box .price{
     font-size: 2rem;
@@ -51,7 +46,7 @@
 
 .product .box-container .box .icons a{
     font-size: 1.5rem;
-    color:#666;
+    color:rgb(170, 17, 17);
     height:5rem;
     width:5rem;
     line-height: 5rem;
@@ -61,5 +56,5 @@
 }
 
 .product .box-container .box .icons a:hover{
-    background:#eee;
+    background:rgb(136, 129, 129);
 }

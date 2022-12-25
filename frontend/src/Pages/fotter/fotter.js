@@ -22,17 +22,17 @@ function Fotter() {
         <p> <i class="fas fa-map-marker-alt"></i> egypt - 400104. </p>
     </div>
 
-    <div class="box">
+    {/* <div class="box">
         <h3>follow us</h3>
         <a href="#" class="fab fa-youtube"></a>
         <a href="#" class="fab fa-facebook-f"></a>
         <a href="#" class="fab fa-twitter"></a>
         <a href="#" class="fab fa-instagram"></a>
-    </div>
+    </div> */}
 
 </div>
 
-<h1 class="credit"> created by <span>mr. Hamada</span> | all rights reserved! </h1>
+<h1 class="credit"> created by <span>Cairo CS</span> | all rights reserved @2022 </h1>
 
 </section>
     </Fragment> 

@@ -16,8 +16,8 @@ function Navbar() {
 
         <nav class="navbar">
           <title className="fra"></title>
-          <a style={{ color: 'black' }}>FRAICHE</a>
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ color: 'black' }}>FRAÎCHE</Link>
+          {/* <Link to="/">Home</Link> */}
           <Link to="/Products">product</Link>
           <Link to="/Contact">Contact us</Link>
           <Link to="/login">Login</Link>

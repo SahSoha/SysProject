@@ -6,6 +6,7 @@ import './HomePage.css';
 import Products from '../Products/Products';
 import Fotter from '../fotter/fotter';
 import Contact from '../Contact/Contact';
+import { Button } from '@mui/material';
 
 function HomePage() {
   return (
@@ -16,7 +17,7 @@ function HomePage() {
 
       <section class="home" id="home">
         <div class="content">
-          <h3>healthy Milky.</h3>
+          <h3>FRAÎCHE</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
             sed! Qui maxime alias, porro dolorum explicabo inventore officia
@@ -24,7 +25,7 @@ function HomePage() {
             odit a.
           </p>
           <a href="#about">
-            <button class="btn">discover more</button>
+            <Button class="btn">discover more</Button>
           </a>
         </div>
       </section>
@@ -79,7 +80,7 @@ function HomePage() {
 
         <div class="box-container">
           <div class="box">
-            <i class="fas fa-apple-alt"></i>
+            {/* <i class="fas fa-apple-alt"></i> */}
             <h3>organic food</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -89,7 +90,7 @@ function HomePage() {
           </div>
 
           <div class="box">
-            <i class="fas fa-award"></i>
+            {/* <i class="fas fa-award"></i> */}
             <h3>high quality</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -99,7 +100,7 @@ function HomePage() {
           </div>
 
           <div class="box">
-            <i class="fas fa-shipping-fast"></i>
+            {/* <i class="fas fa-shipping-fast"></i> */}
             <h3>fast delivery</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -109,7 +110,7 @@ function HomePage() {
           </div>
 
           <div class="box">
-            <i class="fas fa-undo"></i>
+            {/* <i class="fas fa-undo"></i> */}
             <h3>easy returns</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -119,7 +120,7 @@ function HomePage() {
           </div>
 
           <div class="box">
-            <i class="fas fa-truck"></i>
+            {/* <i class="fas fa-truck"></i> */}
             <h3>free delivery</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -129,7 +130,7 @@ function HomePage() {
           </div>
 
           <div class="box">
-            <i class="fas fa-headset"></i>
+            {/* <i class="fas fa-headset"></i> */}
             <h3>24 x 7 support</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -150,7 +151,7 @@ function HomePage() {
       <Fotter></Fotter>
 
       {/* <!-- scroll top  --> */}
-      <a href="#home" class="fas fa-arrow-up" id="scroll-top"></a>
+      {/* <a href="#home" class="fas fa-arrow-up" id="scroll-top"></a> */}
     </Fragment>
   );
 }
