@@ -7,6 +7,7 @@ import Products from '../Products/Products';
 import Fotter from '../fotter/fotter';
 import Contact from '../Contact/Contact';
 import { Button } from '@mui/material';
+import data from '../../data';
 
 function HomePage() {
   return (
@@ -35,6 +36,7 @@ function HomePage() {
 <!-- product section starts  --> */}
 
       <Products></Products>
+     
 
       {/* <!-- product section ends -->
 
