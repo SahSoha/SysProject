@@ -29,7 +29,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>$15.10</span> $12.30{' '}
+              <span>15.10 L.E</span> 12.30 L.E{' '}
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -48,7 +48,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>$20</span> $15{' '}
+              <span>20 L.E</span> 15 L.E{' '}
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -67,7 +67,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>$10.50</span> $8.30{' '}
+              <span>10.50 L.E</span> 8.30 L.E{' '}
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -86,7 +86,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span></span> 50
+              <span></span> 50 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -105,7 +105,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span> </span> $30.0
+              <span> </span> 30.0 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -125,7 +125,7 @@ function Products() {
 
             <div class="price">
               {' '}
-              <span>$24.15</span> $18.30{' '}
+              <span>24.15 L.E</span> 18.30 L.E{' '}
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -143,7 +143,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span> </span> $35.50
+              <span> </span> 35.50 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -161,7 +161,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>50.32 </span> $42
+              <span>50.32 L.E</span> 42 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -179,7 +179,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>80 </span> $60
+              <span>80 L.E</span> 60 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -197,7 +197,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span> </span> $5
+              <span> </span> 5 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -215,7 +215,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>15.50 </span> $10
+              <span>15.50 L.E</span> 10 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -233,7 +233,7 @@ function Products() {
             <Rating></Rating>
             <div class="price">
               {' '}
-              <span>10.35 </span> $7
+              <span>10.35 L.E</span> 7 L.E
             </div>
             <div class="icons">
               <a href="shop" class="fas fa-shopping-cart"></a>
@@ -250,7 +250,7 @@ function Products() {
               <Rating></Rating>
               <div class="price">
                 {' '}
-                <span>99.99 </span> $85
+                <span>99.99 L.E</span> 85 L.E
               </div>
               <div class="icons">
                 <a href="shop" class="fas fa-shopping-cart"></a>
@@ -268,7 +268,7 @@ function Products() {
               <Rating></Rating>
               <div class="price">
                 {' '}
-                <span>80.35 </span> $70
+                <span>80.35 L.E</span> 70 L.E
               </div>
               <div class="icons">
                 <a href="shop" class="fas fa-shopping-cart"></a>
@@ -286,7 +286,7 @@ function Products() {
               <Rating></Rating>
               <div class="price">
                 {' '}
-                <span> </span> $90
+                <span> </span> 90 L.E
               </div>
               <div class="icons">
                 <a href="shop" class="fas fa-shopping-cart"></a>
@@ -304,7 +304,7 @@ function Products() {
               <Rating></Rating>
               <div class="price">
                 {' '}
-                <span>30.25 </span> $25
+                <span>30.25 L.E</span> 25 L.E
               </div>
               <div class="icons">
                 <a href="shop" class="fas fa-shopping-cart"></a>
@@ -322,7 +322,7 @@ function Products() {
               <Rating></Rating>
               <div class="price">
                 {' '}
-                <span></span> $20
+                <span></span> 20 L.E
               </div>
               <div class="icons">
                 <a href="shop" class="fas fa-shopping-cart"></a>
@@ -340,7 +340,7 @@ function Products() {
               <Rating></Rating>
               <div class="price">
                 {' '}
-                <span> 25.80</span> $22.50
+                <span> 25.80 L.E</span> 22.50 L.E
               </div>
               <div class="icons">
                 <a href="shop" class="fas fa-shopping-cart"></a>
