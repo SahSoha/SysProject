@@ -1,21 +1,25 @@
 import React from 'react';
-import { Rating } from "@mui/material";
-import { Fragment } from "react";
-import { Link } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
-import "./Products.css";
-import Fotter from "../fotter/fotter";
+import { Icon, Rating } from '@mui/material';
+import { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
+import './Products.css';
+import Fotter from '../fotter/fotter';
 
 function Products() {
   return (
-    <Fragment> 
-        
-<Navbar></Navbar>
-<section class="product" id="product">
+    <Fragment>
+      <Navbar></Navbar>
+      <section class="product" id="product">
+        <h1 class="heading">featured products</h1>
 
-    <h1 class="heading">featured products</h1>
-
-    <div class="box-container">
+        <div class="S-container">
+          <form>
+            <input type="search" placeholder="Search..."></input>
+            <button type="submit">Search </button>
+          </form>
+        </div>
+        <div class="box-container">
           <div class="box">
             <img
               src="https://cdnprod.mafretailproxy.com/sys-master-root/hc2/h60/27308418662430/12719_2.jpg_480Wx480H"
@@ -225,7 +229,7 @@ function Products() {
               src="https://cdnprod.mafretailproxy.com/sys-master-root/h56/hc9/27324710486046/312660_main.jpg_480Wx480H"
               alt=""
             />
-            <h3>lite yogurt  </h3>
+            <h3>lite yogurt </h3>
             <Rating></Rating>
             <div class="price">
               {' '}
@@ -238,118 +242,117 @@ function Products() {
               <a href="shear" class="fas fa-share"></a>
             </div>
             <div class="box">
-            <img
-              src="https://www.lurpak.com/optimized/golden-small-pad/siteassets/final-packshots/middle-east/j00068-butter-web-images-277x438_unsalted.jpg"
-              alt=""
-            />
-            <h3>Butter </h3>
-            <Rating></Rating>
-            <div class="price">
-              {' '}
-              <span>99.99 </span> $85
+              <img
+                src="https://www.lurpak.com/optimized/golden-small-pad/siteassets/final-packshots/middle-east/j00068-butter-web-images-277x438_unsalted.jpg"
+                alt=""
+              />
+              <h3>Butter </h3>
+              <Rating></Rating>
+              <div class="price">
+                {' '}
+                <span>99.99 </span> $85
+              </div>
+              <div class="icons">
+                <a href="shop" class="fas fa-shopping-cart"></a>
+                <a href="watch" class="fas fa-eye"></a>
+                <a href="love" class="fas fa-heart"></a>
+                <a href="shear" class="fas fa-share"></a>
+              </div>
             </div>
-            <div class="icons">
-              <a href="shop" class="fas fa-shopping-cart"></a>
-              <a href="watch" class="fas fa-eye"></a>
-              <a href="love" class="fas fa-heart"></a>
-              <a href="shear" class="fas fa-share"></a>
+            <div class="box">
+              <img
+                src="https://www.lurpak.com/siteassets/final-packshots/middle-east/j00068-butter-web-images-277x438_slightly-salted.jpg"
+                alt=""
+              />
+              <h3>Salted Butter </h3>
+              <Rating></Rating>
+              <div class="price">
+                {' '}
+                <span>80.35 </span> $70
+              </div>
+              <div class="icons">
+                <a href="shop" class="fas fa-shopping-cart"></a>
+                <a href="watch" class="fas fa-eye"></a>
+                <a href="love" class="fas fa-heart"></a>
+                <a href="shear" class="fas fa-share"></a>
+              </div>
             </div>
-          </div>
-          <div class="box">
-            <img
-              src="https://www.lurpak.com/siteassets/final-packshots/middle-east/j00068-butter-web-images-277x438_slightly-salted.jpg"
-              alt=""
-            />
-            <h3>Salted Butter </h3>
-            <Rating></Rating>
-            <div class="price">
-              {' '}
-              <span>80.35 </span> $70
+            <div class="box">
+              <img
+                src="https://www.lurpak.com/optimized/golden-small-pad/siteassets/final-packshots/lurpak_thumb_spreadable_olive.png"
+                alt=""
+              />
+              <h3>Olive Oil Butter </h3>
+              <Rating></Rating>
+              <div class="price">
+                {' '}
+                <span> </span> $90
+              </div>
+              <div class="icons">
+                <a href="shop" class="fas fa-shopping-cart"></a>
+                <a href="watch" class="fas fa-eye"></a>
+                <a href="love" class="fas fa-heart"></a>
+                <a href="shear" class="fas fa-share"></a>
+              </div>
             </div>
-            <div class="icons">
-              <a href="shop" class="fas fa-shopping-cart"></a>
-              <a href="watch" class="fas fa-eye"></a>
-              <a href="love" class="fas fa-heart"></a>
-              <a href="shear" class="fas fa-share"></a>
+            <div class="box">
+              <img
+                src="https://www.osmanmarket.app/us/136/pidwebp600/1341/f132833393107063685056-1.webp"
+                alt=""
+              />
+              <h3>choclate ice cream </h3>
+              <Rating></Rating>
+              <div class="price">
+                {' '}
+                <span>30.25 </span> $25
+              </div>
+              <div class="icons">
+                <a href="shop" class="fas fa-shopping-cart"></a>
+                <a href="watch" class="fas fa-eye"></a>
+                <a href="love" class="fas fa-heart"></a>
+                <a href="shear" class="fas fa-share"></a>
+              </div>
             </div>
-          </div>
-          <div class="box">
-            <img
-              src="https://www.lurpak.com/optimized/golden-small-pad/siteassets/final-packshots/lurpak_thumb_spreadable_olive.png"
-              alt=""
-            />
-            <h3>Olive Oil Butter </h3>
-            <Rating></Rating>
-            <div class="price">
-              {' '}
-              <span> </span> $90
+            <div class="box">
+              <img
+                src="https://images.spinneys.net/product/27818/FliJ9mPaM726geBU3fnL8kOPY3TNa3tYubpvjvvR.jpg"
+                alt=""
+              />
+              <h3>vanilla ice cream </h3>
+              <Rating></Rating>
+              <div class="price">
+                {' '}
+                <span></span> $20
+              </div>
+              <div class="icons">
+                <a href="shop" class="fas fa-shopping-cart"></a>
+                <a href="watch" class="fas fa-eye"></a>
+                <a href="love" class="fas fa-heart"></a>
+                <a href="shear" class="fas fa-share"></a>
+              </div>
             </div>
-            <div class="icons">
-              <a href="shop" class="fas fa-shopping-cart"></a>
-              <a href="watch" class="fas fa-eye"></a>
-              <a href="love" class="fas fa-heart"></a>
-              <a href="shear" class="fas fa-share"></a>
+            <div class="box">
+              <img
+                src="https://www.osmanmarket.app/us/136/pidwebp200/8166/f132994155602948646126-1.webp"
+                alt=""
+              />
+              <h3>mango ice cream </h3>
+              <Rating></Rating>
+              <div class="price">
+                {' '}
+                <span> 25.80</span> $22.50
+              </div>
+              <div class="icons">
+                <a href="shop" class="fas fa-shopping-cart"></a>
+                <a href="watch" class="fas fa-eye"></a>
+                <a href="love" class="fas fa-heart"></a>
+                <a href="shear" class="fas fa-share"></a>
+              </div>
             </div>
-          </div>
-          <div class="box">
-            <img
-              src="https://www.osmanmarket.app/us/136/pidwebp600/1341/f132833393107063685056-1.webp"
-              alt=""
-            />
-            <h3>choclate ice cream </h3>
-            <Rating></Rating>
-            <div class="price">
-              {' '}
-              <span>30.25 </span> $25
-            </div>
-            <div class="icons">
-              <a href="shop" class="fas fa-shopping-cart"></a>
-              <a href="watch" class="fas fa-eye"></a>
-              <a href="love" class="fas fa-heart"></a>
-              <a href="shear" class="fas fa-share"></a>
-            </div>
-          </div>
-          <div class="box">
-            <img
-              src="https://images.spinneys.net/product/27818/FliJ9mPaM726geBU3fnL8kOPY3TNa3tYubpvjvvR.jpg"
-              alt=""
-            />
-            <h3>vanilla ice cream </h3>
-            <Rating></Rating>
-            <div class="price">
-              {' '}
-              <span></span> $20
-            </div>
-            <div class="icons">
-              <a href="shop" class="fas fa-shopping-cart"></a>
-              <a href="watch" class="fas fa-eye"></a>
-              <a href="love" class="fas fa-heart"></a>
-              <a href="shear" class="fas fa-share"></a>
-            </div>
-          </div>
-          <div class="box">
-            <img
-              src="https://www.osmanmarket.app/us/136/pidwebp200/8166/f132994155602948646126-1.webp"
-              alt=""
-            />
-            <h3>mango ice cream </h3>
-            <Rating></Rating>
-            <div class="price">
-              {' '}
-              <span> 25.80</span> $22.50
-            </div>
-            <div class="icons">
-              <a href="shop" class="fas fa-shopping-cart"></a>
-              <a href="watch" class="fas fa-eye"></a>
-              <a href="love" class="fas fa-heart"></a>
-              <a href="shear" class="fas fa-share"></a>
-            </div>
-          </div>
-         
           </div>
         </div>
-</section>
- </Fragment> 
-    );
-  }
-  export default Products;
+      </section>
+    </Fragment>
+  );
+}
+export default Products;

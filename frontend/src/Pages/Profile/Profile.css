@@ -1,194 +1,187 @@
 /* Global Styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
-  body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2rem;
-    line-height: 2;
-    background-color: #fff;
-    color: #333;
-    position: relative;
-  }
-  
-  a {
-    color: #6E8A3C;
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  
-  /* Utilities */
-  .container {
-    position: relative;
-    height: 100%;
-    max-width: 100%;
-    padding-top:  6% ;
-    padding-left: 2%;
-    text-align: center;
-    margin-top: 10%;
-  }
-  
-  /* Text Styles*/
-  
-  .text{
-    font-size: 5rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    color: #6E8A3C;
-    margin-right: 1rem;
-    transition: opacity 0.2s ease-in;
-    position: relative;
-    text-align: center;
-  }
-  
-  .cya{
-  
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    color: #6E8A3C;
-    transition: opacity 0.2s ease-in;
-    position: relative;
-    text-align: center;
-  
-  }
-  .ahc{
-    margin: 1rem;
-    text-align: center;
-    color: gray;
-  }
-  
-  .submit{
-    font: inherit;
-    background:#6E8A3C;
-    color: #fff;
-    display: inline-block;
-    padding: 0.4rem 1.3rem;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    margin-right: 0.5rem;
-    transition: opacity 0.2s ease-in;
-    outline: none;
-  }
-  /* Forms */
-  
-  .form{
-    margin: 12% auto;
-    width: 20em;
-    text-align: center;
-    position: relative;
-    display: block;
-    margin-top: 0.3rem;
-    color: #888;
-  }
-  
-  .form .form-group {
-    margin: 1.8rem 0;
-  }
-  
-  .form input[type='text'],
-  .form input[type='email'],
-  .form input[type='password'],
-  .form input[type='Phone number'],
-  .form input[type='Date'],
-  .form select,
-  .form textarea {
-    display: block;
-    width: 100%;
-    padding: 0.4rem;
-    font-size: 2.5rem;
-    border: 1px solid #ccc;
-  }
-  
-  .form input[type='submit'],
-  button {
-    font: inherit;
-  }
-  #fname{
-    margin: 0 auto;
-    width: 45%;
-    float: left;
-  }
-  #lname{
-    margin: 0 auto;
-    width: 45%;
-  }
-  
-  .form_wrap ul {
-    padding: 8px 10px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    border:1px solid #bdc2c3;
-    width:70%;
-    background: #bdc2c3;
-    margin-left: 15%;
-  }
-  
-  .form_wrap ul li:first-child{
-    margin-right: 15px;
-  }
-  
-  .form_wrap ul .radio_wrap .input_radio{
-    position: absolute;
-    opacity: 0;
-  }
-  
-  .form_wrap ul .radio_wrap span{
-    display: inline-block;
-    font-size: 17px;
-    padding: 3px 15px;
-    border-radius: 15px;
-    color: #525357;
-  }
-  
-  .form_wrap .input_radio:checked ~ span{
-    background: #196c50;
-    color:white;
-  }
-  
-  .Gen{
-    padding-right: 75%;
-    display: block;
-    width: 100%;
-    font-size: 2.5rem;
-    color: rgb(126, 123, 123);
-  }
-  .D{
-    color: rgb(110, 108, 108);
-    padding-bottom: 2%;
-    font-size: 2.1rem;
-    
-  }
-  
-  #n{
-    font-size:larger;
-    margin: 0 auto;
-    width: 14rem;
-    padding: 6.5px 6.5px;
-    border: 1px solid #ccc;
-    
-  }
-  
-  #m{
-    color: rgb(114, 113, 113);
-    border: 1px solid #ccc;
-    padding: 4.8px 4px;
-    width: 13rem;
-  }
-  #y{
-  
-    font-size:larger;
-    margin: 0 auto;
-    width: 12rem;
-    padding: 6.5px 4px;
-    border: 1px solid #ccc;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+  background-color: #fff;
+  color: #333;
+  position: relative;
+}
+
+a {
+  color: #6e8a3c;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utilities */
+.container {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+  padding-top: 6%;
+  padding-left: 2%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* Text Styles*/
+
+.text {
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #6e8a3c;
+  margin-right: 1rem;
+  transition: opacity 0.2s ease-in;
+  position: relative;
+  text-align: center;
+}
+
+.cya {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #6e8a3c;
+  transition: opacity 0.2s ease-in;
+  position: relative;
+  text-align: center;
+}
+.ahc {
+  margin: 1rem;
+  text-align: center;
+  color: gray;
+}
+
+.submit {
+  font: inherit;
+  background: #6e8a3c;
+  color: #fff;
+  display: inline-block;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+/* Forms */
+
+.form {
+  margin: 12% auto;
+  width: 20em;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form .form-group {
+  margin: 1.8rem 0;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='Phone number'],
+.form input[type='Date'],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 2.5rem;
+  border: 1px solid #ccc;
+}
+
+.form input[type='submit'],
+button {
+  font: inherit;
+}
+#fname {
+  margin: 0 auto;
+  width: 45%;
+  float: left;
+}
+#lname {
+  margin: 0 auto;
+  width: 45%;
+}
+
+.form_wrap ul {
+  padding: 8px 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #bdc2c3;
+  width: 70%;
+  background: #bdc2c3;
+  margin-left: 15%;
+}
+
+.form_wrap ul li:first-child {
+  margin-right: 15px;
+}
+
+.form_wrap ul .radio_wrap .input_radio {
+  position: absolute;
+  opacity: 0;
+}
+
+.form_wrap ul .radio_wrap span {
+  display: inline-block;
+  font-size: 17px;
+  padding: 3px 15px;
+  border-radius: 15px;
+  color: #525357;
+}
+
+.form_wrap .input_radio:checked ~ span {
+  background: #6e8a3c;
+  color: white;
+}
+
+.Gen {
+  padding-right: 75%;
+  display: block;
+  width: 100%;
+  font-size: 2.5rem;
+  color: rgb(126, 123, 123);
+}
+.D {
+  color: rgb(110, 108, 108);
+  padding-bottom: 2%;
+  font-size: 2.1rem;
+}
+
+#n {
+  font-size: larger;
+  margin: 0 auto;
+  width: 14rem;
+  padding: 6.5px 6.5px;
+  border: 1px solid #ccc;
+}
+
+#m {
+  color: rgb(114, 113, 113);
+  border: 1px solid #ccc;
+  padding: 4.8px 4px;
+  width: 13rem;
+}
+#y {
+  font-size: larger;
+  margin: 0 auto;
+  width: 12rem;
+  padding: 6.5px 4px;
+  border: 1px solid #ccc;
+}
