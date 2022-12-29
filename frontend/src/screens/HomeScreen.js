@@ -1,3 +1,4 @@
+import React from "react";
 import { Button, Rating } from "@mui/material";
 import data from "../data";
 
