@@ -70,11 +70,11 @@
     background:#6E8A3C;
     color: #fff;
     display: inline-block;
-    padding: 0.4rem 1.3rem;
+    padding: 0.3rem 1.2rem;
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    margin-right: 0.5rem;
+    margin-right: 0.4rem;
     transition: opacity 0.2s ease-in;
     outline: none;
   }
@@ -103,7 +103,7 @@
   .form textarea {
     display: block;
     width: 100%;
-    padding: 0.4rem;
+    padding: 0.3rem;
     font-size: 2.5rem;
     border: 1px solid #ccc;
   }
@@ -111,4 +111,5 @@
   .form input[type='submit'],
   button {
     font: inherit;
+    margin-top: 5%;
   }
