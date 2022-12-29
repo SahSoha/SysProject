@@ -1,4 +1,4 @@
-import React from 'react' ;
+import React from 'react';
 import { Fragment } from 'react';
 import Navbar from '../Navbar/Navbar';
 import './HomePage.css';
@@ -33,10 +33,10 @@ function HomePage() {
       {/* <!-- home section ends -->
 
 <!-- product section starts  --> */}
-<h1 class="heading">Feture Products</h1>   
-<Search></Search>
+      <h1 class="heading">Featured Products</h1>
+      <Search></Search>
       {/* <Products></Products> */}
-  <HomeScreen></HomeScreen>
+      <HomeScreen></HomeScreen>
 
       {/* <!-- product section ends -->
 

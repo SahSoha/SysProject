@@ -1,4 +1,4 @@
-body{
+body {
   margin-top: 4.3%;
 }
 .product .box-container {
@@ -40,16 +40,12 @@ body{
   text-decoration: line-through;
 } */
 
-
-
-
 .product .box-container .box .icons a:hover {
   background: rgb(136, 129, 129);
 }
 
-<<<<<<< HEAD
 .S-container {
-  margin-left: 70px;
+  margin-left: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,8 +97,6 @@ body{
 .S-container button[type='submit']:hover {
   opacity: 1;
 }
-=======
->>>>>>> a3e928337cbb36a9966c3488f098932b52e8d9b0
 
 button[type='submit']:focus,
 input[type='search']:focus {
