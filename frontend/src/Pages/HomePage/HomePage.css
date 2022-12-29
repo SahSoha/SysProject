@@ -53,7 +53,6 @@ section {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
 .home {
   display: flex;
   background-image: url(https://columbiasurgery.org/sites/default/files/pancreas_food_lactose.jpg);
@@ -61,16 +60,6 @@ section {
   justify-content: space-between;
   background-size: cover;
   background-position: center;
-=======
-
-.home{
-    display: flex;
-    background-image: url(https://columbiasurgery.org/sites/default/files/pancreas_food_lactose.jpg);
-    align-items: center;
-    justify-content: space-between;
-    background-size: cover;
-    background-position: center;
->>>>>>> 0a4c91766797ca1c02acda2dabc8ae479803c8ef
 }
 
 .home .content {
@@ -91,22 +80,13 @@ section {
   color: var(--green);
 }
 
-<<<<<<< HEAD
 .home .content p {
+  background-color: transparent rgba(255, 244, 244, 0.596);
   font-size: 2.5rem;
-  font-style: italic;
+  font-style: normal;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(59, 59, 59);
   padding: 1rem 0;
-=======
-.home .content p{
-    background-color: rgba(255, 244, 244, 0.596) ;
-    font-size: 2.5rem;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(0, 0, 0);
-    padding:1rem 0;
->>>>>>> 0a4c91766797ca1c02acda2dabc8ae479803c8ef
 }
 
 .about .row {

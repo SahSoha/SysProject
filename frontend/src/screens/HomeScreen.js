@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Rating } from '@mui/material';
 import data from '../data';
 import { Link } from 'react-router-dom';
+import HomePage from '../Pages/HomePage/Homebage';
 
 function HomeScreen() {
   return (

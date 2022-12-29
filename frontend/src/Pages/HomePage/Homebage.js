@@ -6,7 +6,7 @@ import Fotter from '../fotter/fotter';
 import Contact from '../Contact/Contact';
 import { Button } from '@mui/material';
 import HomeScreen from '../../screens/HomeScreen';
-import Search from '../Navbar/Search';
+import Search from '../../Components/Search/Search';
 
 function HomePage() {
   return (
