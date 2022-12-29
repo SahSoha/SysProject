@@ -2,15 +2,29 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-style: inherit;
 }
 main{
-  padding: 5rem;
+  padding: 1rem;
+  border-style: inherit;
 }
-
+.product{
+  border: 2px #6e8a3c dashed; 
+  margin: 2rem;
+  border-radius: 2rem;
+  background: #fff;
+  width: 30rem;
+  text-align: center;
+  
+}
 .product img{
   width: 100%;
   max-width: 300px;
 }
 .product-info{
   padding: 1rem;
+}
+.salary{
+  font-size: 1.65rem;
+  color: #666;
 }

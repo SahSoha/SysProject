@@ -20,6 +20,10 @@ const Login = () => {
         <div className="form-group">
           <input type="password" placeholder="Password" name="password" required/>
         </div>
+        <select name="user_type">
+           <option value="user">user</option>
+           <option value="admin">admin</option>
+        </select>
         <input type="submit" className="submit" value="Login" />
         <p className="ahc">
           Don't have an account? <Link to="/register">Sign Up</Link>

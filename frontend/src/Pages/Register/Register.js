@@ -32,7 +32,10 @@ const Register =() => {
           <div className="form-group">
             <input type="password" placeholder="Confirm Password" name="password" required/>
           </div>
-
+           <select name="user_type">
+             <option value="user">user</option>
+             <option value="admin">admin</option>
+           </select>
           <input type="submit" className="submit" value="Sign Up" />
 
         <p className="ahc">

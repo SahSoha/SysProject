@@ -1,3 +1,6 @@
+body{
+  margin-top: 4.3%;
+}
 .product .box-container {
   display: flex;
   align-items: center;
@@ -15,8 +18,8 @@
 }
 
 .product .box-container .box img {
-  height: 20rem;
-  width: 20rem;
+  height: 16rem;
+  width: 16rem;
   object-fit: cover;
 }
 
@@ -30,32 +33,21 @@
   color: #666;
 }
 
-.product .box-container .box .price span {
+/* .product .box-container .box .price span {
   font-size: 1.5rem;
   color: #aaa;
   padding-right: 0.5rem;
   text-decoration: line-through;
-}
+} */
 
-.product .box-container .box .icons {
-  padding: 1rem 0;
-}
 
-.product .box-container .box .icons a {
-  font-size: 1.5rem;
-  color: rgb(170, 17, 17);
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  border: 0.1rem solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.5rem;
-  margin: 0.5rem;
-}
+
 
 .product .box-container .box .icons a:hover {
   background: rgb(136, 129, 129);
 }
 
+<<<<<<< HEAD
 .S-container {
   margin-left: 70px;
   display: flex;
@@ -109,6 +101,8 @@
 .S-container button[type='submit']:hover {
   opacity: 1;
 }
+=======
+>>>>>>> a3e928337cbb36a9966c3488f098932b52e8d9b0
 
 button[type='submit']:focus,
 input[type='search']:focus {

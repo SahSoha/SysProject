@@ -1,10 +1,14 @@
 import React from 'react';
+<<<<<<< HEAD
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   BrowserRouter,
 } from 'react-router-dom';
+=======
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+>>>>>>> a3e928337cbb36a9966c3488f098932b52e8d9b0
 import Contact from './Pages/Contact/Contact';
 import HomePage from './Pages/HomePage/Homebage';
 import Products from './Pages/Products/Products';
@@ -26,8 +30,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/Register" element={<Register />} />
             <Route path="/Profile" element={<Profile />} />
-            <Route path="/Checkout" element={<Checkout></Checkout>} />
-            <Route path="/Cart" element={<Cart />} />
+            
           </Routes>
         </Router>
       </main>
