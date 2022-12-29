@@ -1,14 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  BrowserRouter,
-} from 'react-router-dom';
-=======
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
->>>>>>> a3e928337cbb36a9966c3488f098932b52e8d9b0
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Contact from './Pages/Contact/Contact';
 import HomePage from './Pages/HomePage/Homebage';
 import Products from './Pages/Products/Products';
