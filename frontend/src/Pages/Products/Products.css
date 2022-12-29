@@ -57,7 +57,7 @@
 }
 
 .S-container {
-  margin-left: 112px;
+  margin-left: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,6 +84,7 @@
   color: inherit;
   border: 1px solid transparent;
   border-radius: inherit;
+  width: 220px;
 }
 
 .S-container input[type='search']::placeholder {
