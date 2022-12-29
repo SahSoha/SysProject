@@ -1,3 +1,4 @@
+import { Button, Rating } from "@mui/material";
 import data from "../data";
 
 function HomeScreen() {
@@ -13,9 +14,12 @@ function HomeScreen() {
           <p>{product.name}</p>
         </a>
         <p>
-          <storage>{product.salar}</storage>
+          <storage className="salary">{product.salar}</storage>
         </p>
-        <button>Add to char</button>
+        <Rating></Rating>
+        <br></br>
+        <Button variant="contained" color="success"> Add to char </Button>
+        
       </div>
     </div>
   ))}

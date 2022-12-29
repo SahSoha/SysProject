@@ -1,6 +1,5 @@
 import React from 'react';
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
 import "./fotter.css";
 
 function Fotter() {
@@ -22,13 +21,7 @@ function Fotter() {
         <p> <i class="fas fa-map-marker-alt"></i> egypt - 400104. </p>
     </div>
 
-    {/* <div class="box">
-        <h3>follow us</h3>
-        <a href="#" class="fab fa-youtube"></a>
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-    </div> */}
+   
 
 </div>
 

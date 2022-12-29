@@ -1,13 +1,12 @@
 import React from 'react' ;
 import { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import './HomePage.css';
-import Products from '../Products/Products';
 import Fotter from '../fotter/fotter';
 import Contact from '../Contact/Contact';
 import { Button } from '@mui/material';
-import data from '../../data';
+import HomeScreen from '../../screens/HomeScreen';
+import Search from '../Navbar/Search';
 
 function HomePage() {
   return (
@@ -18,7 +17,7 @@ function HomePage() {
 
       <section class="home" id="home">
         <div class="content">
-          <h3>FRAÎCHE</h3>
+          <h1>FRAÎCHE</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
             sed! Qui maxime alias, porro dolorum explicabo inventore officia
@@ -34,9 +33,10 @@ function HomePage() {
       {/* <!-- home section ends -->
 
 <!-- product section starts  --> */}
-
-      <Products></Products>
-     
+<h1 class="heading">Feture Products</h1>   
+<Search></Search>
+      {/* <Products></Products> */}
+  <HomeScreen></HomeScreen>
 
       {/* <!-- product section ends -->
 
