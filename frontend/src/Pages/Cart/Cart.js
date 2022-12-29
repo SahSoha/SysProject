@@ -1,10 +1,12 @@
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 import './Cart.css';
 
 function Cart() {
   return (
     <Fragment>
+      <Navbar></Navbar>
       <div class="container1">
         <div class="your cart">
           <h1>your cart</h1>

@@ -54,7 +54,7 @@ section{
 
 .home{
     display: flex;
-    background-image: url(http://foodsafetyhelpline.com/wp-content/uploads/2019/05/FSSAI-Publishes-Food-Facts-about-Milk-and-Milk-Products-1024x643.jpg);
+    background-image: url(https://columbiasurgery.org/sites/default/files/pancreas_food_lactose.jpg);
     align-items: center;
     justify-content: space-between;
     background-size: cover;
@@ -80,6 +80,7 @@ section{
 }
 
 .home .content p{
+    background-color: rgba(255, 244, 244, 0.596) ;
     font-size: 2.5rem;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
