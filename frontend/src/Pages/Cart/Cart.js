@@ -13,7 +13,7 @@ function Cart() {
           <div class="summary_card">
             <div class="card_item">
               <div class="product_img">
-                <img src="https://cdn.gourmetegypt.com/media/catalog/product/cache/2b4d21b90ad5abb98380bc0a709a4ac8/6/2/6222014310294.jpg" />
+                {/* <img src="https://cdn.gourmetegypt.com/media/catalog/product/cache/2b4d21b90ad5abb98380bc0a709a4ac8/6/2/6222014310294.jpg" /> */}
               </div>
               <div class="product_info">
                 <h1>Milk</h1>
